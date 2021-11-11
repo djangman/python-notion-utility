@@ -30,8 +30,8 @@ Python 3.*
 * Get the id for the database that you want to use for this app.
 
 * Rename .env-example to .env and fill in the values for keys: 
-NOTION_SECRET
-NOTION_DATABASE_ID
+    NOTION_SECRET
+    NOTION_DATABASE_ID
 
 #### Set variable to "win" or "mac" depending on your operation system
 
