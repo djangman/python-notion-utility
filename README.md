@@ -38,7 +38,18 @@ Python 3.*
  * In nfrutil.py:
 
      Line 12:  platform = "mac"
-     
+    
+#### In order to have the app working as a right-click context menu option, there is a necessary list of steps
+ ##### Windows
+  * Search google for using Windows registry, for adding an app to the context menu
+    * The path of the app would of course be the full path of nfrutil.py
+    * The first argument to this command line needs to be "%1" which represents what you right clicked on
+    * The second argument needs to be the path of nfrutil.py file, so it would be c:\nfrutil if you downloaded the files there
+    
+ ##### Mac
+   * You'll need to search for an article on use Automator which is a native app that comes with MacOS
+   * when you open Automator first, click on the geer icon, which may be named: "Quick Action" or something else
+   * Set up the path and the arguments like the above ( the windows instructions )
      
 ## To run
  #### On the commandline:
