@@ -1,4 +1,5 @@
-# NFRUtil ( abbreviation of Notion File Reminder Utility )
+# NFRUtil 
+## ( abbreviation of Notion File Reminder Utility )
 A cross-compatible Desktop app that allows a right click on a file in Finder/Windows Explorer and send the pathname and a note, to your Notion database
 
 ## Why
